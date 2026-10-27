@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Audio Reverser</string>
+
+    <!-- Home -->
+    <string name="home_title">Audio Reverser</string>
+    <string name="home_new_round">New round</string>
+    <string name="home_new_round_hint">Record a secret phrase and see who can guess it played backwards</string>
+    <string name="home_recent_rounds">Recent rounds</string>
+    <string name="home_unfinished_badge">Unfinished</string>
+    <string name="home_open_history">Full history</string>
+
+    <!-- Round -->
+    <string name="round_title_label">Round</string>
+    <string name="round_status_in_progress">In progress</string>
+    <string name="round_status_completed">Completed</string>
+    <string name="round_rename">Rename</string>
+    <string name="round_finish">Finish round</string>
+    <string name="round_finish_confirm_title">Finish the round?</string>
+    <string name="round_finish_confirm_message">The original secret phrase will become available for playback. New attempts cannot be added after finishing.</string>
+    <string name="round_finish_confirm_yes">Finish</string>
+    <string name="round_finish_confirm_no">Cancel</string>
+    <string name="round_completed_banner">Round finished. The original is now unlocked!</string>
+
+    <!-- Secret -->
+    <string name="secret_section_title">Secret phrase</string>
+    <string name="secret_not_recorded">The secret phrase has not been recorded yet</string>
+    <string name="secret_record">Record the secret phrase</string>
+    <string name="secret_rerecord">Re-record the secret phrase</string>
+    <string name="secret_locked_hint">The original becomes available once the round is finished</string>
+    <string name="secret_original_locked">Original (locked)</string>
+    <string name="secret_reversed_hint">Players must imitate what they hear</string>
+
+    <!-- Recording -->
+    <string name="recording_in_progress">Recording…</string>
+    <string name="recording_stop">Stop recording</string>
+    <string name="recording_cancel">Cancel recording</string>
+    <string name="recording_processing">Processing recording…</string>
+    <string name="recording_too_short">Recording is too short</string>
+    <string name="recording_permission_needed">Microphone access is required to record</string>
+    <string name="recording_permission_rationale">The microphone is used to record the secret phrase and player attempts. Data stays on your device.</string>
+    <string name="recording_permission_denied">Microphone access denied</string>
+    <string name="recording_permission_open_settings">Open settings</string>
+    <string name="recording_unavailable">Microphone unavailable</string>
+
+    <!-- Attempts -->
+    <string name="attempts_section_title">Attempts</string>
+    <string name="attempt_record">Record attempt</string>
+    <string name="attempts_empty">No attempts yet. Listen to the reversed audio and record attempts!</string>
+    <string name="attempt_default_name">Attempt</string>
+    <string name="attempt_original">Original</string>
+    <string name="attempt_reversed">Reversed</string>
+    <string name="attempt_delete">Delete</string>
+    <string name="attempt_share">Share</string>
+    <string name="attempt_delete_confirm_title">Delete this attempt?</string>
+    <string name="attempt_delete_confirm_message">The recording will be deleted permanently.</string>
+    <string name="attempt_delete_confirm_yes">Delete</string>
+    <string name="attempt_file_missing">File unavailable</string>
+
+    <!-- Playback -->
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="playback_error">Unable to play this recording</string>
+
+    <!-- Round defaults -->
+    <string name="round_default_name">Untitled round</string>
+
+    <!-- History -->
+    <string name="history_title">Round history</string>
+    <string name="history_empty">No rounds yet</string>
+    <string name="history_empty_hint">Create your first round and start playing!</string>
+    <string name="history_delete">Delete round</string>
+    <string name="history_delete_confirm_title">Delete the round?</string>
+    <string name="history_delete_confirm_message">All recordings of this round will be deleted permanently.</string>
+    <string name="history_delete_confirm_yes">Delete</string>
+
+    <!-- Rename -->
+    <string name="rename_title">Rename</string>
+    <string name="rename_hint">Name</string>
+    <string name="rename_save">Save</string>
+    <string name="rename_cancel">Cancel</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_recording_failed">Recording failed</string>
+    <string name="error_processing_failed">Failed to process the recording</string>
+    <string name="error_saving_failed">Failed to save the recording</string>
+    <string name="error_share_failed">Failed to share the recording</string>
+    <string name="error_round_missing">Round not found</string>
+    <string name="error_completed_round">The round is already finished</string>
+    <string name="error_delete_failed">Failed to delete</string>
+    <string name="share_chooser_title">Send recording</string>
+    <string name="share_action">Share</string>
+</resources>
